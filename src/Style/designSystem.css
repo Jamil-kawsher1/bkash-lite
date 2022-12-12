@@ -6,9 +6,19 @@
 .responsive-img {
   width: 100%;
   height: auto;
+  image-rendering: optimizeQuality;
 }
 .slider-view {
   z-index: 1;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.common-container {
+  max-width: 1250px;
+  margin: 0 auto;
 }
 /* --nav-bg-color: #317874; */
 /* --nav-bg-color: #e2136e; */

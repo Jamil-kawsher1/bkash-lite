@@ -1,0 +1,49 @@
+.common-mockup {
+  padding: 60px 20px;
+  border-radius: 10px;
+  display: grid;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  gap: 10px;
+  text-align: center;
+  place-items: center;
+}
+.common-mockup:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.mockup-inner-continer {
+  margin-top: 30px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.mockup-2nd-sec {
+  padding: 20px;
+}
+
+/* meadia quires */
+
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 1024px) {
+  .mockup-inner-continer {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .mockup-inner-continer img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .mockup-inner-continer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .mockup-inner-continer img {
+    width: 10;
+    height: auto;
+  }
+}
