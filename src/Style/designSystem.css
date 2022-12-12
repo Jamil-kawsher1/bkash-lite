@@ -1,0 +1,15 @@
+:root {
+  --nav-bg-color: #e2136e;
+  --fotter-bg-color: #1e1e1e;
+}
+
+.responsive-img {
+  width: 100%;
+  height: auto;
+}
+.slider-view {
+  z-index: 1;
+}
+/* --nav-bg-color: #317874; */
+/* --nav-bg-color: #e2136e; */
+/* #E2D2F9 */
