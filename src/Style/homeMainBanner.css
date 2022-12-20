@@ -1,0 +1,49 @@
+.mainContianerHomeBanner {
+  background: url("../img/static-banner.png");
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding-top: 100px;
+  margin-bottom: 30px;
+}
+.mainContianerHomeBanner__InnerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+.mainContianerHomeBanner__InnerContainer--text {
+}
+.mainContianerHomeBanner__InnerContainer--img {
+}
+
+/* meadia quires */
+
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 640px) {
+  .mainContianerHomeBanner__InnerContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .mainContianerHomeBanner__InnerContainer--img {
+  }
+  .bkash-banner-img {
+    aspect-ratio: 260/300;
+    width: 100%;
+
+    object-fit: contain;
+  }
+}

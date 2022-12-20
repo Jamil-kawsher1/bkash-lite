@@ -4,7 +4,6 @@ import bkash from "../img/BKash-Icon2-Logo.wine.svg";
 import { Link, NavLink } from "react-router-dom";
 import { AiOutlineMenuFold } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
-import "../Style/mediaQuires.css";
 import { LanguageContext } from "../Context/languageContext";
 const Navbar = () => {
   const [isMenueOpen, setIsMenuOpen] = useState(false);

@@ -14,7 +14,8 @@
 }
 
 .nav-view {
-  position: relative;
+  position: sticky;
+  top: 0;
   z-index: 1000;
 }
 nav {
@@ -150,10 +151,6 @@ hr.mobile-link-hr {
   background-color: #e2136e;
   color: white;
 }
-
-
-
-
 
 /* meadia quires */
 

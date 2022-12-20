@@ -17,9 +17,30 @@
   grid-template-columns: repeat(4, 1fr);
 }
 .mockup-2nd-sec {
+  width: 100%;
+  background: linear-gradient(#ffeff6, #fff);
+
   padding: 20px;
 }
+.mockup-services {
+  margin: 40px auto;
+}
+.styled-text {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.732);
+  line-height: 0.1em;
+  margin: 30px 20px;
+}
 
+.styled-text > span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+.mockup-title {
+  display: none;
+}
 /* meadia quires */
 
 @media (max-width: 1280px) {
@@ -45,5 +66,11 @@
   .mockup-inner-continer img {
     width: 10;
     height: auto;
+  }
+  .styled-text {
+    display: none;
+  }
+  .mockup-title {
+    display: block;
   }
 }

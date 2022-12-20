@@ -1,0 +1,33 @@
+.whatsNewMainContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  place-items: center;
+}
+
+[class*="whatsNewContent__Box"] {
+  max-width: 400px;
+  padding: 30px 20px;
+  text-align: justify;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.whatsNewButtonContainer {
+  display: flex;
+  justify-content: center;
+}
+.whatsNewContent__Box--button {
+  margin: 20px 0px;
+  padding: 15px 60px;
+  border-radius: 40px;
+  outline: none;
+  font-size: 20px;
+  color: #e2136e;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid #e2136e;
+  /* background-color: red;
+  place-self: center;
+  justify-self: center; */
+}

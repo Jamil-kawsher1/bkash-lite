@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+.experinceMainContainer {
+  display: grid;
+  grid-template-areas:
+    "one img two"
+    "three img four";
+  gap: 40px;
+  place-items: center;
+}
+
+.experince__Box1 {
+  grid-area: one;
+}
+.experince__Box2 {
+  grid-area: two;
+}
+.experince__Box3 {
+  grid-area: three;
+}
+.experince__Box4 {
+  grid-area: four;
+}
+
+.experince__img-1 {
+  grid-area: img;
+}
+.experince__img-2 {
+  grid-area: img;
+}
+
+.experince-box-innerdiv-controller {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 2fr 1fr;
+  place-items: center;
+  box-sizing: border-box;
+  margin: 0px 40px;
+}
+
+/* creating small circle for click indecator */
+.circle-small {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+
+  background-color: red;
+}
+/* creating big circle for click indecator */
+.circle-big {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+
+  background-color: red;
+}
+
+.experincetext {
+  box-sizing: border-box;
+}
+.common-container {
+  box-sizing: border-box;
+}
+.circleParent {
+  box-sizing: border-box;
+  /* padding: 40px;
+  margin: 0px 30px; */
+}
+
+.common-experince-img {
+  padding: 0px 20px;
+}

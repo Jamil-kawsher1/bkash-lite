@@ -1,6 +1,10 @@
 :root {
   --nav-bg-color: #e2136e;
   --fotter-bg-color: #1e1e1e;
+  --mockup-bg: #fff1f7;
+}
+body {
+  font-size: 15px;
 }
 
 .responsive-img {
@@ -11,7 +15,12 @@
 .slider-view {
   z-index: 1;
 }
-
+.title {
+  font-size: 1.6rem;
+}
+.body-text {
+  font-size: 1rem;
+}
 .text-center {
   text-align: center;
 }
@@ -19,6 +28,24 @@
 .common-container {
   max-width: 1250px;
   margin: 0 auto;
+}
+
+.common-container-gap {
+  margin: 20px 0;
+}
+.common-title-gap {
+  margin: 20px 0px;
+}
+.color-primary {
+  color: #e2136e;
+}
+.color-white {
+  color: white;
+}
+
+.common-gap-grid {
+  display: grid;
+  gap: 20px;
 }
 /* --nav-bg-color: #317874; */
 /* --nav-bg-color: #e2136e; */
