@@ -7,9 +7,9 @@ import nearest4 from "../img/nearest4.webp";
 import "../Style/nearestPoint.css";
 const NearestPoints = () => {
   return (
-    <div className="common-container">
+    <div className="nearestPointParent">
       <h2 className="text-center">Nearest bKash Touchpoints</h2>
-      <div className="nearestPoint__MainContainer">
+      <div className="nearestPoint__MainContainer common-container">
         <div
           data-aos-duration="2000"
           data-aos="fade-right"
@@ -17,7 +17,11 @@ const NearestPoints = () => {
         >
           <h2>Agent Point</h2>
           <p>Learge Number of Active Agent Point all Over the Bangladesh</p>
-          <img src={nearest1} alt="" />
+          <img
+            className="nearest-img-responsive-control"
+            src={nearest1}
+            alt=""
+          />
         </div>
         <div
           data-aos-duration="2000"
@@ -26,7 +30,11 @@ const NearestPoints = () => {
         >
           <h2>Agent Point</h2>
           <p>Learge Number of Active Agent Point all Over the Bangladesh</p>
-          <img src={nearest2} alt="" />
+          <img
+            className="nearest-img-responsive-control"
+            src={nearest2}
+            alt=""
+          />
         </div>
         <div
           data-aos-duration="2000"
@@ -35,7 +43,11 @@ const NearestPoints = () => {
         >
           <h2>Agent Point</h2>
           <p>Learge Number of Active Agent Point all Over the Bangladesh</p>
-          <img src={nearest3} alt="" />
+          <img
+            className="nearest-img-responsive-control"
+            src={nearest3}
+            alt=""
+          />
         </div>
         <div
           data-aos-duration="2000"
@@ -44,7 +56,11 @@ const NearestPoints = () => {
         >
           <h2>Agent Point</h2>
           <p>Learge Number of Active Agent Point all Over the Bangladesh</p>
-          <img src={nearest4} alt="" />
+          <img
+            className="nearest-img-responsive-control"
+            src={nearest4}
+            alt=""
+          />
         </div>
       </div>
     </div>

@@ -2,6 +2,7 @@
   display: grid;
   gap: 20px;
   padding: 20px;
+  box-sizing: border-box;
   grid-template-columns: repeat(2, 1fr);
 }
 [class*="nearestPoint__MainContainer-box"] {
@@ -13,6 +14,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 [class*="nearestPoint__MainContainer-box"]:hover {
@@ -21,6 +23,26 @@
 [class*="nearestPoint__MainContainer-box"]:hover
   [class*="nearestPoint__MainContainer-box"]
   > h2 {
-    
   color: red;
+}
+.nearestPointParent {
+  width: 100%;
+}
+
+/* .nearest-img-responsive-control */
+
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 1024px) {
+  .nearest-img-responsive-control {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 640px) {
 }

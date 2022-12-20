@@ -31,3 +31,21 @@
   place-self: center;
   justify-self: center; */
 }
+
+/* meadia quires */
+
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 640px) {
+  .whatsNewMainContainer {
+    grid-template-columns: repeat(1, 0.8fr);
+    place-content: center;
+  }
+}

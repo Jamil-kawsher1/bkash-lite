@@ -7,6 +7,9 @@ import "../Style/whatsnew.css";
 const WhatsNew = () => {
   return (
     <div className="common-container-gap">
+      <h2 className="text-center common-title-gap title">
+        What's New in bKash
+      </h2>
       <div className="whatsNewMainContainer common-container">
         <div className="whatsNewContent__Box common-gap-grid ">
           <img className="responsive-img" src={whatsnew1} alt="" />
