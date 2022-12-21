@@ -7,6 +7,7 @@
     "one img two"
     "three img four";
   gap: 40px;
+
   place-items: center;
 }
 
@@ -31,9 +32,9 @@
 }
 
 .experince-box-innerdiv-controller {
-  display: grid;
+  display: flex;
   gap: 20px;
-  grid-template-columns: 2fr 1fr;
+  /* grid-template-columns: 2fr 1fr; */
   place-items: center;
   box-sizing: border-box;
   margin: 0px 40px;
@@ -57,6 +58,10 @@
 }
 
 .experincetext {
+  line-break: auto;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  line-height: 2rem;
   box-sizing: border-box;
 }
 .common-container {
@@ -70,4 +75,67 @@
 
 .common-experince-img {
   padding: 0px 20px;
+}
+
+/* meedia quires */
+
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 1024px) {
+  .common-container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 640px) {
+  .experinceMainContainer {
+    grid-template-areas:
+      "one img img"
+      "two img img"
+      "three img img"
+      "four img img";
+    gap: 20px;
+    width: 100%;
+  }
+  .experinceImg-control {
+    width: 100%;
+    height: auto;
+  }
+  .experince-box-innerdiv-controller {
+    display: flex;
+  }
+  .title {
+    font-size: 1rem;
+  }
+  .body-text {
+    font-size: 0.9rem;
+  }
+
+  .experincetext {
+    line-break: auto;
+
+    line-height: 1.4rem;
+    box-sizing: border-box;
+  }
+
+  /* creating small circle for click indecator */
+  .circle-small {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+
+    background-color: red;
+  }
+  /* creating big circle for click indecator */
+  .circle-big {
+    border-radius: 50%;
+    width: 19px;
+    height: 19px;
+
+    background-color: red;
+  }
 }

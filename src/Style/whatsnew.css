@@ -38,9 +38,18 @@
 }
 
 @media (max-width: 1024px) {
+  .whatsNewMainContainer {
+    padding: 10px;
+    grid-template-columns: repeat(3, 0.8fr);
+    place-content: center;
+  }
 }
 
 @media (max-width: 768px) {
+  .whatsNewMainContainer {
+    grid-template-columns: repeat(1, 0.9fr);
+    place-content: center;
+  }
 }
 
 @media (max-width: 640px) {

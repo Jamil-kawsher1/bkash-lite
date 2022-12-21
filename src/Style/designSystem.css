@@ -2,9 +2,11 @@
   --nav-bg-color: #e2136e;
   --fotter-bg-color: #1e1e1e;
   --mockup-bg: #fff1f7;
+  --font-size-title: 32px;
+  --font-size-body: 28px;
 }
 body {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .responsive-img {
@@ -26,8 +28,9 @@ body {
 }
 
 .common-container {
-  max-width: 1250px;
+  width: 100%;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .common-container-gap {
@@ -50,3 +53,11 @@ body {
 /* --nav-bg-color: #317874; */
 /* --nav-bg-color: #e2136e; */
 /* #E2D2F9 */
+
+@media (min-width: 1280px) {
+  .common-container {
+    max-width: 1250px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+}

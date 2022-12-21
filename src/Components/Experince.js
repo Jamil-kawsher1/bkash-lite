@@ -13,12 +13,12 @@ const Experince = () => {
       <div className="experinceMainContainer">
         <div className="experince__Box1">
           <div className="experince-box-innerdiv-controller">
-            <div className="common-gap-grid experincetext">
+            <div className=" experincetext">
               <h2 className="title" onClick={() => handleExpeinceClick(1)}>
                 ব্যাবহারকারীর তথ্য হালনাগাদ{" "}
               </h2>
               <p className="body-text">
-                অ্যাপ থেকে সহজেই গ্রাহক তথ্য হালনাগাদ <br /> করুন
+                অ্যাপ থেকে সহজেই গ্রাহক তথ্য হালনাগাদ করুন
               </p>
             </div>
             <div className="circleParent">
@@ -30,7 +30,7 @@ const Experince = () => {
         </div>
         <div className="experince__Box2">
           <div className="experince-box-innerdiv-controller">
-            <div className="common-gap-grid experincetext">
+            <div className=" experincetext">
               <h2 className="title" onClick={() => handleExpeinceClick(2)}>
                 নিরাপদ লেনদেন
               </h2>
@@ -48,7 +48,7 @@ const Experince = () => {
         </div>
         <div className="experince__Box3">
           <div className="experince-box-innerdiv-controller">
-            <div className="common-gap-grid experincetext">
+            <div className=" experincetext">
               <h2 className="title" onClick={() => handleExpeinceClick(3)}>
                 বিকাশ পিন ও ভেরিফিকেশন কোড
               </h2>
@@ -65,7 +65,7 @@ const Experince = () => {
         </div>
         <div className="experince__Box4">
           <div className="experince-box-innerdiv-controller">
-            <div className="common-gap-grid experincetext">
+            <div className=" experincetext">
               <h2 className="title" onClick={() => handleExpeinceClick(4)}>
                 কার্ড-এর তথ্যের নিরাপত্তা
               </h2>
@@ -82,7 +82,7 @@ const Experince = () => {
           </div>
         </div>
         <div className="experince__img-1 common-experince-img">
-          <img src={boxcaresol4} alt="" />
+          <img className="experinceImg-control " src={boxcaresol4} alt="" />
         </div>
         <div className="experince__img-2 common-experince-img"></div>
       </div>
