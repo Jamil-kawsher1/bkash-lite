@@ -10,6 +10,7 @@ import { useEffect, useState } from "react";
 import Services from "./Components/Services";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Footer from "./Components/Footer";
 
 function App() {
   const [eng, setEng] = useState(false);
@@ -27,6 +28,7 @@ function App() {
           <Route path="/slide" element={<Slider />} />
           <Route path="/services" element={<Services />} />
         </Routes>
+        <Footer />
       </LanguageContext.Provider>
     </BrowserRouter>
   );

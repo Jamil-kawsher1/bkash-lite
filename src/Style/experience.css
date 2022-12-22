@@ -94,10 +94,10 @@
 @media (max-width: 640px) {
   .experinceMainContainer {
     grid-template-areas:
-      "one img img"
-      "two img img"
-      "three img img"
-      "four img img";
+      "one one img img"
+      "two two img img"
+      "three three img img"
+      "four four img img";
     gap: 20px;
     width: 100%;
   }

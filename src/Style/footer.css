@@ -1,0 +1,7 @@
+.footer-container-1 img {
+  max-width: 150px;
+  height: 150px;
+}
+.footer-container-1--images {
+  display: flex;
+}
