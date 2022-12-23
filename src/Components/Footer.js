@@ -3,13 +3,11 @@ import React from "react";
 import googleplay from "../img/Google_Play-Badge-Logo.wine.svg";
 import appstore from "../img/download-on-the-app-store-apple-logo-svgrepo-com.svg";
 import "../Style/footer.css";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
-    <div>
-      <div
-        style={{ backgroundColor: "black", color: "white" }}
-        className="footer-main-container"
-      >
+    <div className="footer-parent-container">
+      <div className="footer-main-container common-container">
         <div className="footer-container-1 common-grid">
           <svg
             version="1.1"
@@ -117,10 +115,63 @@ const Footer = () => {
             <img src={googleplay} alt="" /> <img src={appstore} alt="" />
           </div>
         </div>
-        <div className="footer-container-2">
-          <div className="footer-container-2--link-container-1"></div>
-          <div className="footer-container-2--link-container-2"></div>
-          <div className="footer-container-2--link-container-3"></div>
+        <div className="footer-container-2 ">
+          <div className="footer-container-2--link-container-1 ">
+            <Link className="footer-links" to="#">
+              সেবা
+            </Link>
+            <Link className="footer-links" to="#">
+              ক্যাম্পেইন
+            </Link>
+            <Link className="footer-links" to="#">
+              হেল্প
+            </Link>
+            <Link className="footer-links" to="#">
+              কমপ্লেইন্ট সেল
+            </Link>
+          </div>
+          <div className="footer-container-2--link-container-2">
+            <Link className="footer-links" to="#">
+              কোম্পানি
+            </Link>
+            <Link className="footer-links" to="#">
+              বিকাশ সম্পর্কে
+            </Link>
+            <Link className="footer-links" to="#">
+              যোগাযোগ
+            </Link>
+            <Link className="footer-links" to="#">
+              ক্যারিয়ার
+            </Link>
+          </div>
+          <div className="footer-container-2--link-container-3">
+            <Link className="footer-links" to="#">
+              ব্যবসা
+            </Link>
+            <Link className="footer-links" to="#">
+              বিকাশ সাপ্লায়ার হোন
+            </Link>
+            <Link className="footer-links" to="#">
+              বিকাশ মার্চেন্ট হোন
+            </Link>
+            <Link className="footer-links" to="#">
+              ডিজিটাল বেতন
+            </Link>
+          </div>
+          <div className="footer-container-2--link-container-4">
+            <Link className="footer-links" to="#">
+              অন্যান্য
+            </Link>
+            <Link className="footer-links" to="#">
+              শর্তাবলি
+            </Link>
+            <Link className="footer-links" to="#">
+              সাধারণ জিজ্ঞাসা
+            </Link>
+            <Link className="footer-links" to="#">
+              নিরাপত্তা পরামর্শ
+            </Link>
+          </div>
         </div>
       </div>
     </div>

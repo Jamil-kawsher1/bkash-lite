@@ -1,7 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.footer-main-container {
+  background-color: black;
+  color: white;
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  gap: 20px;
+}
+
 .footer-container-1 img {
   max-width: 150px;
   height: 150px;
 }
 .footer-container-1--images {
   display: flex;
+}
+
+.footer-links {
+  color: white;
+  text-decoration: none;
+}
+.footer-container-2 {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 30px;
+}
+
+[class*="footer-container-2--link-container-"] {
+  display: flex;
+  row-gap: 10px;
+  flex-direction: column;
+}
+.footer-parent-container {
+  background-color: black;
 }
