@@ -4,9 +4,17 @@ import googleplay from "../img/Google_Play-Badge-Logo.wine.svg";
 import appstore from "../img/download-on-the-app-store-apple-logo-svgrepo-com.svg";
 import "../Style/footer.css";
 import { Link } from "react-router-dom";
+import {
+  FaFacebookF,
+  FaYoutube,
+  FaInstagram,
+  FaLinkedinIn,
+  FaTwitter,
+} from "react-icons/fa";
 const Footer = () => {
+  let year = new Date().getFullYear();
   return (
-    <div className="footer-parent-container">
+    <div style={{ paddingBottom: "20px" }} className="footer-parent-container">
       <div className="footer-main-container common-container">
         <div className="footer-container-1 common-grid">
           <svg
@@ -171,6 +179,31 @@ const Footer = () => {
             <Link className="footer-links" to="#">
               নিরাপত্তা পরামর্শ
             </Link>
+          </div>
+        </div>
+      </div>
+      <div className="common-container">
+        <hr className="common-container gray-hr" />
+        <div className="footer-credit-links-main ">
+          <div className="">
+            <h4 className="color-white">© {year} bKash, সর্বস্বত্ব সংরক্ষিত</h4>
+          </div>
+          <div className=" footericonParent ">
+            <div className="footericon-1">
+              <FaFacebookF />
+            </div>
+            <div className="footericon-2">
+              <FaYoutube />
+            </div>
+            <div className="footericon-3">
+              <FaInstagram />
+            </div>
+            <div className="footericon-4">
+              <FaLinkedinIn />
+            </div>
+            <div className="footericon-5">
+              <FaTwitter />
+            </div>
           </div>
         </div>
       </div>
