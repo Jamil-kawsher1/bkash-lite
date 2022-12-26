@@ -50,6 +50,9 @@ body {
   display: grid;
   gap: 20px;
 }
+.text-color-primary {
+  color: #e2136e;
+}
 /* --nav-bg-color: #317874; */
 /* --nav-bg-color: #e2136e; */
 /* #E2D2F9 */

@@ -1,4 +1,6 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 .experinceMainContainer {
@@ -7,8 +9,9 @@
     "one img two"
     "three img four";
   gap: 40px;
-
+  width: 100%;
   place-items: center;
+  text-align: left;
 }
 
 .experince__Box1 {
@@ -37,7 +40,8 @@
   /* grid-template-columns: 2fr 1fr; */
   place-items: center;
   box-sizing: border-box;
-  margin: 0px 40px;
+  /* padding: 20px; */
+  margin: 10px 30px;
 }
 
 /* creating small circle for click indecator */
@@ -86,6 +90,16 @@
   .common-container {
     width: 100%;
   }
+  .experinceMainContainer {
+    width: 100%;
+    gap: 0;
+
+    box-sizing: border-box;
+  }
+  .experinceImg-control {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 @media (max-width: 768px) {
@@ -94,15 +108,23 @@
 @media (max-width: 640px) {
   .experinceMainContainer {
     grid-template-areas:
-      "one one img img"
-      "two two img img"
-      "three three img img"
-      "four four img img";
-    gap: 20px;
-    width: 100%;
+      "one img"
+      "two img"
+      "three img"
+      "four img";
+    place-items: inherit;
+  }
+  .experince-box-innerdiv-controller {
+    gap: 5px;
+    margin: 10px 0px;
+    padding: 10px;
+  }
+  .title {
+    font-size: 14px;
   }
   .experinceImg-control {
     width: 100%;
+    object-fit: cover;
     height: auto;
   }
   .experince-box-innerdiv-controller {
@@ -114,12 +136,19 @@
   .body-text {
     font-size: 0.9rem;
   }
-
+  .image-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .experincetext {
     line-break: auto;
 
     line-height: 1.4rem;
     box-sizing: border-box;
+  }
+  .hiden {
+    display: none;
   }
 
   /* creating small circle for click indecator */
