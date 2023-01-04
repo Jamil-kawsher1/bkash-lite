@@ -10,20 +10,27 @@
     "three img four";
   gap: 40px;
   width: 100%;
+  padding: 10px;
+  margin: 100px 0px;
   place-items: center;
   text-align: left;
 }
 
 .experince__Box1 {
+  box-sizing: border-box;
   grid-area: one;
 }
 .experince__Box2 {
+  box-sizing: border-box;
+
   grid-area: two;
 }
 .experince__Box3 {
+  box-sizing: border-box;
   grid-area: three;
 }
 .experince__Box4 {
+  box-sizing: border-box;
   grid-area: four;
 }
 
@@ -33,15 +40,11 @@
 .experince__img-2 {
   grid-area: img;
 }
-
-.experince-box-innerdiv-controller {
-  display: flex;
-  gap: 20px;
-  /* grid-template-columns: 2fr 1fr; */
-  place-items: center;
+* {
   box-sizing: border-box;
-  /* padding: 20px; */
-  margin: 10px 30px;
+}
+.experince-box-innerdiv-controller {
+  width: 100%;
 }
 
 /* creating small circle for click indecator */
@@ -49,7 +52,7 @@
   border-radius: 50%;
   width: 20px;
   height: 20px;
-
+  box-sizing: border-box;
   background-color: red;
 }
 /* creating big circle for click indecator */
@@ -57,21 +60,20 @@
   border-radius: 50%;
   width: 25px;
   height: 25px;
-
+  box-sizing: border-box;
   background-color: red;
 }
 
 .experincetext {
-  line-break: auto;
-  letter-spacing: 1px;
-  word-spacing: 5px;
-  line-height: 2rem;
-  box-sizing: border-box;
+  max-width: 100%;
+  /* box-sizing: border-box; */
 }
 .common-container {
   box-sizing: border-box;
 }
 .circleParent {
+  width: 100%;
+  height: auto;
   box-sizing: border-box;
   /* padding: 40px;
   margin: 0px 30px; */
@@ -117,7 +119,7 @@
   .experince-box-innerdiv-controller {
     gap: 5px;
     margin: 10px 0px;
-    padding: 10px;
+    padding: 20px;
   }
   .title {
     font-size: 14px;
@@ -142,10 +144,10 @@
     align-items: center;
   }
   .experincetext {
-    line-break: auto;
-
-    line-height: 1.4rem;
-    box-sizing: border-box;
+    flex-basis: 80%;
+  }
+  .circleParent {
+    flex-basis: 20%;
   }
   .hiden {
     display: none;

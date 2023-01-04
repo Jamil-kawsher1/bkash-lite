@@ -25,7 +25,7 @@ const Slider = () => {
         pagination={{ clickable: true }}
         onSwiper={(swiper) => console.log(swiper)}
       >
-        <SwiperSlide className="slider-view">
+        <SwiperSlide className="slider-view responsive-img">
           <img className="responsive-img" src={bkcover1} alt="" />
         </SwiperSlide>
         <SwiperSlide className="slider-view">

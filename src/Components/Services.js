@@ -24,7 +24,26 @@ const Services = () => {
   return (
     <Swiper
       spaceBetween={1}
-      slidesPerView={10}
+      breakpoints={{
+        // when window width is >= 640px
+        460: {
+          width: 460,
+          slidesPerView: 6,
+        },
+        640: {
+          width: 640,
+          slidesPerView: 6,
+        },
+        // when window width is >= 768px
+        768: {
+          width: 768,
+          slidesPerView: 8,
+        },
+        1080: {
+          width: 1080,
+          slidesPerView: 10,
+        },
+      }}
       autoplay={{
         delay: 2000,
       }}

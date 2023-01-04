@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 .footer-main-container {
+  width: auto;
   background-color: black;
   color: white;
   display: flex;
@@ -11,7 +12,9 @@
   align-items: center;
   gap: 20px;
 }
-
+.common-container {
+  width: 100%;
+}
 .footer-container-1 img {
   max-width: 150px;
   height: 150px;
@@ -73,9 +76,6 @@
 }
 
 @media (max-width: 768px) {
-}
-
-@media (max-width: 640px) {
   .footer-main-container {
     flex-direction: column-reverse;
   }
@@ -99,6 +99,9 @@
     gap: 20px;
     flex-direction: column-reverse;
   }
+}
+
+@media (max-width: 640px) {
   /* .footer-container-1 {
     order: 2;
   }

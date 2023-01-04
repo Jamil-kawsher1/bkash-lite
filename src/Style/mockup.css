@@ -50,6 +50,10 @@
   .mockup-inner-continer {
     max-width: 100%;
   }
+  .mockup-inner-continer img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media (max-width: 768px) {
@@ -72,5 +76,9 @@
   }
   .mockup-title {
     display: block;
+  }
+  .busineesHomeCommonImg {
+    width: 90%;
+    height: auto;
   }
 }

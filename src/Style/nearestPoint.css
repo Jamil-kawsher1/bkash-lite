@@ -1,7 +1,7 @@
 .nearestPoint__MainContainer {
   display: grid;
   gap: 20px;
-  padding: 20px;
+  padding: 40px;
   box-sizing: border-box;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -45,4 +45,18 @@
 }
 
 @media (max-width: 640px) {
+  .nearestPoint__MainContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  [class*="nearestPoint__MainContainer-box-"] {
+    width: 100%;
+  }
+}
+@media (max-width: 300px) {
+  .nearestPoint__MainContainer {
+    grid-template-columns: auto;
+  }
+  .footer-container-1--images {
+    flex-direction: column;
+  }
 }
