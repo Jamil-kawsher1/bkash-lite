@@ -1,5 +1,8 @@
 :root {
   --nav-bg-color: #e2136e;
+  /* --nav-bg-2nd-color: #607196; */
+  --nav-bg-2nd-color: #e76f51;
+  --mockup-bg-color: #babfd1;
   --fotter-bg-color: #1e1e1e;
   --mockup-bg: #fff1f7;
   --font-size-title: 32px;

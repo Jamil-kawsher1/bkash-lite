@@ -53,7 +53,7 @@ const Services = () => {
       onSwiper={(swiper) => console.log(swiper)}
     >
       <SwiperSlide>
-        <Link className="service-links" to="#">
+        <Link className="service-links" to="/services/send-money">
           <span className="service-main-div">
             <img style={{ width: "60px" }} src={service1} alt="" />
             <h6 className="text-center">লোন</h6>
@@ -61,7 +61,7 @@ const Services = () => {
         </Link>
       </SwiperSlide>
       <SwiperSlide>
-        <Link className="service-links" to="#">
+        <Link className="service-links" to="/services/mobile-recharge">
           <div className="service-main-div">
             <img style={{ width: "60px" }} src={service2} alt="" />
             <h6 className="text-center">লোন</h6>
